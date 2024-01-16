@@ -340,6 +340,7 @@ footer{
   margin-top: 25px;
   padding-top: 50px; 
   grid-area: footer;
+  padding: 50px;
 }
 
 
