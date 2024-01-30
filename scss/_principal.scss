@@ -1,0 +1,33 @@
+main {
+    display: block;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+    text-align: center;
+    background-color: $bk-color;
+    grid-area: main;
+    overflow: hidden;
+   
+  }
+  
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    list-style: none;
+    background-color: $bk-color;
+    align-items: center;
+    justify-content: space-around;
+  
+
+    img{
+      margin-top: map-get($ren , img );
+      margin-left: map-get($ren , img );
+      margin-inline: map-get($ren , img );
+      width: 150px;
+    }
+  }
+  
+  .productos{
+      margin: 25px;
+  }

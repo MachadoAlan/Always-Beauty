@@ -6,6 +6,11 @@
 
 }
 
+
+
+
+
+/*grilla*/
 .grid-container{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -30,6 +35,11 @@ html{
 
 
 
+
+
+
+/*header*/
+
 header {
   display: flex;
   flex-direction: column;
@@ -43,11 +53,7 @@ header {
   width: 100%;
   border-bottom: 1px solid black;
   grid-area: header;
- 
-  
-
 }
-
 
 
 h1{
@@ -98,8 +104,12 @@ nav a:hover{
 
 
 
-/* main */
 
+
+
+
+
+/* main */
 
 main {
   display: block;
@@ -127,6 +137,10 @@ main {
 .productos{
     margin: 25px;
 }
+
+
+
+
 
 
 
@@ -167,7 +181,6 @@ li {
 
 
 
-
 /* productos */
 
 .accordion{
@@ -198,16 +211,17 @@ aside{
 }
 
 
-
-
-
-
 .products img{
   margin-top: 50px;
   margin-left: 50px;
   margin-inline: 50px;
   width: 150px;
 }
+
+
+
+
+
 
 /* donde encontrarnos */
 iframe{
@@ -297,6 +311,9 @@ h5{
 }
 
 
+
+
+
 /*tratamiento*/
 
 .one{
@@ -315,6 +332,11 @@ h5{
 
 }
 
+
+
+
+
+
 /*mapa*/
 
 .mapa{
@@ -330,6 +352,13 @@ h5{
 
 }
 
+
+
+
+
+
+/*footer*/
+
 footer{
   display: flex;
   align-items: center;
@@ -342,6 +371,8 @@ footer{
   grid-area: footer;
   padding: 50px;
 }
+
+
 
 
 
@@ -370,7 +401,7 @@ footer{
 @media (min-width: 320px) and (max-width: 767px){
   .grid-container{
     display: grid;
-    grid-template-columns: 2fr;
+    grid-template-columns: 1fr;
     grid-template-rows: 0.1fr 0.3fr 0.3fr 0.01fr;
     grid-template-areas: 
     "header"

@@ -1,0 +1,23 @@
+//reset
+@import 'reset/vars';
+@import 'mixed';
+@import 'reset/reset';
+
+
+//estructura principal
+@import 'grid';
+@import 'header';
+@import 'principal';
+@import 'aside';
+@import 'donde-encontrarnos';
+@import 'tratamiento';
+@import 'mapa';
+@import 'footer';
+
+//media queries
+@import 'mediaq';
+
+
+
+
+

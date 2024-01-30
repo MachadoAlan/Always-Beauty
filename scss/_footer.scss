@@ -1,0 +1,13 @@
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 25px;
+    padding-top: map-get($ren , img ); 
+    grid-area: footer;
+    padding: map-get($ren , img );
+  }
+  

@@ -1,0 +1,64 @@
+header {
+    @include flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    border-bottom: 1px solid black;
+    grid-area: header;
+  }
+  
+
+  
+  h1{
+    font-weight: map-get($ren, w );
+  }
+  
+  a{
+    text-decoration: none;
+    color: map-get($colors, prim );
+  }
+  
+  .logo {
+    display: center;
+    align-items: center;
+    text-align: center;
+    min-height: 80px;
+
+    img {
+        align-items: center;
+        text-align: center;
+        height: 70px;
+        margin-right: map-get($ren , marg );
+        margin-top: map-get($ren, marg );
+        }
+  
+  }
+  
+  
+  nav a{
+    font-weight: 500;
+    padding-right: 30px;
+
+    &:hover{
+      color: white;
+    }
+  }
+  
+  nav ul{
+    list-style: none;
+    text-align: center;
+  }
+  
+  nav li{
+    display: inline-block;
+    margin-bottom: map-get($ren , marg );
+  }
+  
+  
+  
+  

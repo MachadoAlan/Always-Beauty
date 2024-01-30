@@ -1,0 +1,22 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 1fr 0.3fr 0.1fr;
+    grid-template-areas: 
+    "header header header"
+    " main   main   main"
+    " aside  aside  aside"
+    "footer footer footer";
+  }
+  
+  
+  @font-face {
+    font-family: $font-princ;
+    src: url('./fonts/Gilroy-Light.ttf');
+  }
+  
+  
+  html{
+    font-family: $font-princ;
+  }
+  

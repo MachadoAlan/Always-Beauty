@@ -1,0 +1,66 @@
+.descuento {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-bottom: 100px;
+  
+  }
+  
+  main img {
+    width: 100%;
+    max-height: 1000px;
+    margin-bottom: 100px;
+  }
+  
+  
+  li {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+     
+  }
+  
+  .margin{
+    margin-top: map-get($ren , img );
+  }
+  .btn-outline-light{
+    --bs-btn-border-color: none;
+    --bs-btn-color: none;
+  }
+  
+  
+  
+  
+  // productos
+  
+  .accordion{
+    --bs-accordion-btn-bg: map-get($colors , bt );
+    --bs-accordion-active-bg: #f7f0f2;
+  }
+  
+  aside{
+    grid-area: aside;
+      @include flex;
+      justify-content: center;
+      flex-direction: column;
+      flex-wrap: wrap;
+      
+  }
+  
+  
+  .btn-outline-primary {
+    --bs-btn-color: black;
+    --bs-btn-border-color: black;
+    --bs-btn-hover-bg: #e55e8b;
+    --bs-btn-hover-border-color: #dc336b;
+    --bs-btn-hover-color: map-get($colors , prim );
+    --bs-btn-active-color: map-get($colors , prim );
+    --bs-btn-active-bg: #e4a7bb;
+    --bs-btn-active-border-color: map-get($colors , sec );
+  }
+  
+  
+  
