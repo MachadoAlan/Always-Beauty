@@ -1,3 +1,23 @@
+.bi-instagram {
+  width: 50px;
+  height: 50px;
+}
+.bi-instagram:hover {
+  border-style: dotted;
+  border-width: 1px;
+  border-color: red;
+}
+
+.bi-whatsapp {
+  width: 50px;
+  height: 50px;
+}
+.bi-whatsapp:hover {
+  border-style: dotted;
+  border-width: 1px;
+  border-color: green;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -269,11 +289,13 @@ h5 {
 footer {
   display: flex;
   align-items: center;
+  flex-direction: column;
   justify-content: center;
   align-content: center;
   flex-wrap: wrap;
-  flex-direction: column;
   margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
   padding-top: 50px;
   grid-area: footer;
   padding: 50px;
