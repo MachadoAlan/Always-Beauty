@@ -6,6 +6,12 @@
     <title>AlwaysBeauty Estetica</title>
     <!--bs-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!--animate-->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!--aos-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!--css-->
     <link rel="stylesheet" href="./css/main.css">
 
@@ -16,7 +22,7 @@
     <div class="grid-container">
         <header class="sticky-top">
             <!-- logo -->
-             <div class="logo sticky-top">
+             <div class="logo sticky-top animate__animated animate__pulse">
                 <img src="assets/logo.png" alt="Logo-AlwaysBeauty"> 
                 <h1>Always Beauty</h1>      
             </div>
@@ -94,19 +100,19 @@
 
             <h3>Descuentos</h3>
 
-            <div class="descuento">
+            <div class="descuento" data-aos="fade-up">
                 <h5>¡25% de Descuento abonando con BBVA todos los miercoles!</h5> 
             
             </div>
             
-            <div class="descuento">
+            <div class="descuento" data-aos="fade-up">
                 <h5>¡30% de Reintegro abonando con NaranjaX todos los Lunes!</h5>
             
              </div>
 
             <hr>
         
-            <div class="icons">
+            <div class="icons" data-aos="fade-up">
                 <li><img src="assets/enviado.png" alt="Envios">Envios</li>
                 <li><img src="assets/localizacion.png" alt="Retiros">Retiros</li>
                 <li><img src="assets/mano.png" alt="Pagos">Metodos de Pago</li>
@@ -148,6 +154,15 @@
         </footer>
     </div> 
 
+
+    <!--aos-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+  
+  
+  <!--bs-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 </body>
