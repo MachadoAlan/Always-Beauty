@@ -4,7 +4,7 @@ main {
     flex-wrap: wrap;
     margin-bottom: 100px;
     text-align: center;
-    background-color: $bk-color;
+    background-color: white;
     grid-area: main;
     overflow: hidden;
    
@@ -15,7 +15,7 @@ main {
     flex-wrap: wrap;
     text-align: center;
     list-style: none;
-    background-color: $bk-color;
+    background-color: white;
     align-items: center;
     justify-content: space-around;
   
@@ -31,3 +31,4 @@ main {
   .productos{
       margin: 25px;
   }
+
