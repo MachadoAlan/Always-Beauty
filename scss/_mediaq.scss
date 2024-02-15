@@ -2,9 +2,8 @@
 @media (min-width: 768px) and (max-width: 1200px){
     .grid-container{
       display: grid;
-      background-color: #000000;
       grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: 0.1fr 1fr 0.3fr 0.1fr;
+      grid-template-rows: max-content max-content;
       grid-template-areas: 
       "header header "
       " main   main   "
@@ -23,7 +22,7 @@
   .grid-container{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 0.02fr 0.3fr 0.3fr 0.01fr;
+    grid-template-rows: max-content;
     grid-template-areas: 
     "header"
     " main"
