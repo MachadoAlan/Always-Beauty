@@ -1,21 +1,19 @@
 .bi-instagram {
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
+  color: #3f3d3d;
 }
 .bi-instagram:hover {
-  border-style: dotted;
-  border-width: 1px;
-  border-color: red;
+  color: #ecc1c7;
 }
 
 .bi-whatsapp {
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
+  color: #3f3d3d;
 }
 .bi-whatsapp:hover {
-  border-style: dotted;
-  border-width: 1px;
-  border-color: green;
+  color: #ecc1c7;
 }
 
 * {
@@ -51,7 +49,7 @@ header {
   position: sticky;
   top: 0px;
   width: 100%;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #c45762;
   grid-area: header;
 }
 
@@ -66,11 +64,14 @@ h2 {
 }
 
 h3 {
+  margin-top: 50px;
   text-align: center;
   margin-bottom: 20px;
 }
 
 h4 {
+  color: #c45762;
+  margin-bottom: 50px;
   font-size: 25px;
   text-align: center;
   padding-top: 40px;
@@ -97,9 +98,7 @@ a {
 .logo img {
   align-items: center;
   text-align: center;
-  height: 250px;
-  margin-right: 10px;
-  margin-top: 10px;
+  height: 100px;
 }
 
 nav a {
@@ -107,7 +106,7 @@ nav a {
   padding-right: 30px;
 }
 nav a:hover {
-  color: white;
+  color: #c45762;
 }
 
 nav ul {
@@ -120,8 +119,13 @@ nav li {
   margin-bottom: 10px;
 }
 
-.fondo {
-  background-color: #ffeff5;
+hr {
+  color: #c45762;
+  margin: none;
+}
+
+.cabeza img :hover {
+  transform: none;
 }
 
 main {
@@ -148,11 +152,55 @@ main {
   margin-top: 50px;
   margin-left: 50px;
   margin-inline: 50px;
-  width: 150px;
+  width: 175px;
+  transition: 0.5s;
+  object-fit: cover;
+  border: 1px solid #c45762;
+}
+.products img:hover {
+  transform: scale(1.2);
+}
+
+.nohover {
+  pointer-events: none;
+}
+.nohover img {
+  margin-top: 0px;
+  margin-left: 0px;
 }
 
 .productos {
   margin: 25px;
+}
+
+.marcas {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  list-style: none;
+  background-color: white;
+  align-items: center;
+  justify-content: space-around;
+}
+
+img {
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-inline: 50px;
+  width: 150px;
+  transition: 0.5s;
+  object-fit: cover;
+}
+
+img:hover {
+  transform: scale(1.2);
+}
+
+ol li {
+  text-align: justify;
+  display: list-item;
+  list-style: decimal;
+  margin-bottom: 0;
 }
 
 .descuento {
@@ -166,7 +214,7 @@ main {
 main img {
   width: 100%;
   max-height: 1000px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 li {
@@ -195,16 +243,17 @@ aside {
   grid-area: aside;
   display: flex;
   align-content: center;
+  align-items: stretch;
   justify-content: center;
   flex-direction: column;
   flex-wrap: wrap;
 }
 
 .btn-outline-primary {
-  --bs-btn-color: black;
-  --bs-btn-border-color: black;
-  --bs-btn-hover-bg: #e55e8b;
-  --bs-btn-hover-border-color: #dc336b;
+  --bs-btn-color: #c45762;
+  --bs-btn-border-color: #c45762;
+  --bs-btn-hover-bg: #ecc1c7;
+  --bs-btn-hover-border-color: #bc828a;
   --bs-btn-hover-color: map-get($colors , prim );
   --bs-btn-active-color: map-get($colors , prim );
   --bs-btn-active-bg: #e4a7bb;
@@ -218,7 +267,7 @@ iframe {
 p {
   text-align: center;
   font-weight: 200;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 
 ul li {
@@ -265,6 +314,7 @@ ul li {
 }
 .icons img {
   margin-top: 200px;
+  margin-bottom: 25px;
   margin-inline: 200px;
   width: 50px;
 }
@@ -302,12 +352,12 @@ footer {
   justify-content: center;
   align-content: center;
   flex-wrap: wrap;
-  margin-top: 25px;
-  margin-left: 25px;
-  margin-right: 25px;
-  padding-top: 50px;
   grid-area: footer;
-  padding: 50px;
+}
+
+.foot {
+  margin: 25px;
+  margin-bottom: 70px;
 }
 
 @media (min-width: 768px) and (max-width: 1200px) {

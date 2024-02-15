@@ -5,11 +5,12 @@ footer{
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
-    margin-top: 25px;
-    margin-left: 25px;
-    margin-right: 25px;
-    padding-top: map-get($ren , img ); 
     grid-area: footer;
-    padding: map-get($ren , img );
+    
   }
   
+  
+.foot{
+margin: 25px;
+margin-bottom: 70px;
+}

@@ -1,6 +1,5 @@
 //colores
 $bk-color: #ffdee9;
-$bk-color-dos: #ffeff4;
 $color-sec: black;
 $color-terc: white; 
 
@@ -31,8 +30,8 @@ $ren:(
 
 //each
 $bordes: (
-    instagram: red,
-    whatsapp: green,
+    instagram: #ecc1c7,
+    whatsapp: #ecc1c7,
 );
 
 //llave☝️      ☝️valor
@@ -40,14 +39,14 @@ $bordes: (
 
 @each $colores, $valor_colores in $bordes{
     .bi-#{$colores}{
-        width: 50px;
-        height: 50px;
+        width: 30px;
+        height: 30px;
+        color:#3f3d3d;
         &:hover{
-            border-style: dotted;
-            border-width: 1px;
-            border-color: $valor_colores;
+            color:$valor_colores;
         }
         
     }
     
 }
+

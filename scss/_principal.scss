@@ -24,11 +24,63 @@ main {
       margin-top: map-get($ren , img );
       margin-left: map-get($ren , img );
       margin-inline: map-get($ren , img );
-      width: 150px;
-    }
-  }
+      width: 175px;
+      transition: 0.5s;
+      object-fit: cover;
+      border: 1px solid #c45762;
+      }
   
+      img:hover{
+        transform: scale(1.2);
+      }
+  }  
+
+ .nohover{
+  pointer-events: none;
+  
+
+  img{
+    margin-top: 0px;
+    margin-left:  0px;
+  }
+ }
+
   .productos{
       margin: 25px;
   }
 
+  
+
+.marcas{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    list-style: none;
+    background-color: white;
+    align-items: center;
+    justify-content: space-around;
+    }
+
+    img{
+    margin-top: map-get($ren , img );
+    margin-left: map-get($ren , img );
+    margin-inline: map-get($ren , img );
+    width: 150px;
+    transition: 0.5s;
+    object-fit: cover;
+    }
+
+    img:hover{
+    transform: scale(1.2);
+    }
+
+ol li{
+    text-align: justify;
+    display: list-item;
+    list-style: decimal;
+    margin-bottom: 0;
+    }
+
+
+
+  

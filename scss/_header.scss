@@ -8,7 +8,7 @@ header {
     position: sticky;
     top: 0px;
     width: 100%;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #c45762;
     grid-area: header;
   }
   
@@ -25,12 +25,14 @@ header {
   }
 
   h3{
-    
+    margin-top: 50px;
     text-align: center;
     margin-bottom: 20px;
   }
   
   h4{
+    color: #c45762;
+    margin-bottom: 50px;
     font-size: 25px;
     text-align: center;
     padding-top: 40px;
@@ -58,9 +60,8 @@ header {
     img {
         align-items: center;
         text-align: center;
-        height: 250px;
-        margin-right: map-get($ren , marg );
-        margin-top: map-get($ren, marg );
+        height: 100px;
+        
         }
   
   }
@@ -71,7 +72,7 @@ header {
     padding-right: 30px;
 
     &:hover{
-      color: white;
+      color: #c45762;
     }
   }
   
@@ -84,9 +85,16 @@ header {
     display: inline-block;
     margin-bottom: map-get($ren , marg );
   }
+
   
-  .fondo{
-    background-color: #ffeff5;
+  
+  hr {
+    color: #c45762;
+    margin: none;
   }
-  
-  
+
+  .cabeza img{
+    :hover{
+        transform: none;
+      }
+  }
