@@ -20,7 +20,7 @@
     flex-wrap: wrap;
     text-align: center;
     flex-direction: column;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
      
   }
   
@@ -42,8 +42,20 @@
     --bs-accordion-btn-bg: #ecc1c7;
     --bs-accordion-active-bg:#c45762;
     --bs-accordion-active-color: white;
+    --bs-accordion-btn-focus-box-shadow: #333333;
+    --bs-accordion-border-color: none;
   }
   
+  .asd{
+    margin-left: 50px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: stretch;
+
+  }
   aside{
     grid-area: aside;
       @include flex;
@@ -51,10 +63,12 @@
       justify-content: center;
       flex-direction: column;
       flex-wrap: wrap;
-      
   }
   
-  
+  .accordion-body{
+    text-align: center;
+  }
+
   .btn-outline-primary {
     --bs-btn-color: #c45762;
     --bs-btn-border-color: #c45762;

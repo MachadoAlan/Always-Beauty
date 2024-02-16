@@ -47,9 +47,18 @@ main {
 
   .productos{
       margin: 25px;
+      transition: 0.5s;
+      &:hover{
+        transform: scale(1.1);
+      }
   }
 
-  
+  .accord{
+    transition: 0.5s;
+    &:hover{
+      transform: scale(1.05);
+    }
+  }
 
 .marcas{
     display: flex;
