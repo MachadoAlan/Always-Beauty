@@ -85,7 +85,7 @@ header {
   }
   
   nav li{
-    display: inline-block;
+    display: contents;
     margin-bottom: map-get($ren , marg );
   }
 
@@ -101,4 +101,13 @@ header {
     :hover{
         transform: none;
       }
+  }
+
+
+  .carousel-control-next-icon{
+    opacity: 0%;
+  }
+
+  .carousel-control-prev-icon{
+    opacity: 0%;
   }
