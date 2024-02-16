@@ -31,11 +31,11 @@
 }
 
 @font-face {
-  font-family: "gilroy light";
+  font-family: "Gilroy-Light";
   src: url("../assets/fonts/Gilroy-Light.ttf");
 }
 html {
-  font-family: "gilroy light";
+  font-family: "Gilroy-Light";
 }
 
 header {
